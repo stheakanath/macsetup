@@ -21,3 +21,4 @@ gitpush() {
     git push origin master
 }
 alias push=gitpush
+alias subl='open -a "Sublime Text"'
