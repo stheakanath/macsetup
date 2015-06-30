@@ -1,17 +1,20 @@
-# added by Anaconda 2.1.0 installer
-export PATH="/Users/Sony/anaconda/bin:$PATH"
-export CS61B_LIB_DIR="/Users/Sony/cs61b/ado/lib/*"
-export GJDB_LIB_DIR="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/lib/*"
-export CLASSPATH="$CLASSPATH:$CS61B_LIB_DIR:./"
-export CLASSPATH="$CLASSPATH:$CS61B_LIB_DIR:$GJDB_LIB_DIR:./"
+# Setting PATH for Python 3.4
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH
+
+# Apple Internal Shortcuts
+alias apple='cd /Users/ktheakanath/Library/Mobile\ Documents/com~apple~CloudDocs/Internship\ Files/Apple\ 2015'
+alias mount_ios_binaries='~luna/bin/mountebuild --volumes iOSRestoreImages iOSiPhoneImages iOSiPadImages'
+alias pulldraper='svn checkout https://aesvn.apple.com/svn/alp/trunk/Apps/Draper'
+
+# Terminal Visual Settings
 alias ls="ls -G"
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
-alias code='cd Dropbox/Programming/'
-alias class='cd Dropbox/Berkeley/Classes/'
-export CLICOLOR=1
 
-
+# Public File Shortcuts
+alias code='cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Programming'
+alias class='cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Berkeley/Classes/'
 gitpush() {
     git add .
     git commit -m "$@"
