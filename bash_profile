@@ -11,6 +11,9 @@ alias pulldraper='svn checkout https://aesvn.apple.com/svn/alp/trunk/Apps/Draper
 alias ls="ls -G"
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+PS1='\[\e[0;32m\]\u:\W $\[\e[0m '
+
+# Terminal Settings: Theme - Pro; Font - Monaco 13 pt; Character spacing - 0.996; Line spacing - 1 
 
 # Public File Shortcuts
 alias code='cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Programming'
